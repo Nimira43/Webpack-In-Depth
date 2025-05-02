@@ -4,4 +4,10 @@ function buttonClicked() {
 
   const listItems = ['apples', 'bread', 'coffee']
   const ul = document.getElementById('shoppingList')
+
+  _.forEach(listItems, function(item) {
+    const tempEl = document.createElement('li')
+    tempEl.innerHTML = item
+    ul.appendChild(tempEl)
+  })
 }
