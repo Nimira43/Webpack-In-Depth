@@ -1,6 +1,6 @@
-const { add, addAndMultiply} = require('./functions/add')
-const subtract = require('./functions/subtract')
+const { add, subtract, multiply, divide} = require('./functions')
 
-console.log(add(5, 7))
-console.log(subtract(5, 7))
-console.log(addAndMultiply(4, 4, 4))
+console.log(add(12, 7))
+console.log(subtract(12, 7))
+console.log(multiply(12, 7))
+console.log(divide(12, 7))
