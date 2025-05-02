@@ -2,7 +2,7 @@ import _ from 'lodash'
 
 document.getElementById('button1').addEventListener('click', function () {
   const el = document.getElementById('header')
-  el.innerHTML = 'Code has been updated'
+  el.innerHTML = 'Button Clicked!!! Code has been updated'
   const listItems = ['apples', 'bread', 'coffee']
   const ul = document.getElementById('shoppingList')
 
