@@ -7,6 +7,6 @@ function addAndMultiply(a, b, c) {
 }
 
 module.exports = {
-  add: add,
-  addAndMultiply: addAndMultiply
+  add,
+  addAndMultiply
 }
